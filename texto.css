@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+/* Cabeçalho */
+.container-nav{
+    max-width: 800px;   
+    display: flex;
+    margin-left: 5rem;
+}
+
+header{
+    background-color: transparent;
+    width: 100%;
+    padding: 25px;
+}
+
+.menu{
+    width: 100%;
+}
+
+.menu nav a{
+    color: #000000;
+    text-decoration: none;
+    padding-right: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: .4s;
+}
+
+.menu nav a:hover{
+    color: #2980B9;
+}
+
+.work-container{
+    padding: 1rem;
+    width: 100%;
+}
+
+.work-container h1{
+    padding: 5px;
+    margin-top: 1rem;
+}
+
+img{
+    width: 100%;
+}
+
+/* Footer */
+footer{
+    background-color: #0e0c0c;
+    height: 50%;
+    padding: 35px;
+    color: #fff;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    padding: 10px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 2rem;
+}
+
+.footer-content p{
+    margin: 4px;
+    line-height: 3rem;
+    font-size: 14px;
+}
+
+#footer-copyright{
+    text-align: center;
+    padding: 1px;
+    font-size: 0.9rem;
+    font-weight: 100;
+}
+
+
+/* ScrollBar */
+::-webkit-scrollbar{
+    width: 10px;
+}
+     
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: #a8a29e;
+    border-radius: 10px;
+    
+}

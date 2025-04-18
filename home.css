@@ -1,0 +1,252 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+
+.container-nav{
+    max-width: 800px;   
+    display: flex;
+    margin-left: 5rem;
+}
+
+header{
+    background-color: transparent;
+    width: 100%;
+    padding: 25px;
+}
+
+.menu{
+    width: 100%;
+}
+
+.menu nav a{
+    color: #000000;
+    text-decoration: none;
+    padding-right: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: .4s;
+}
+
+.menu nav a:hover{
+    color: #2980B9;
+}
+
+img{
+    width: 100%;
+}
+
+/* Card */
+main{
+    height: 50vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #434343;
+
+    font-size: 16px;
+}
+
+main.cards {
+    display: flex;
+    padding: 32px;
+}
+
+main.cards section.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: white;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    max-height: 468px;
+    margin-left: 32px;
+}
+
+main.cards section.card:first-child {
+    margin-left: 0;
+}
+
+main.cards section.card .icon {
+    width: 64px;
+    height: 64px;
+}
+
+main.cards section.card img {
+    width: 100%;
+}
+
+main.cards section.card h3 {
+    font-size: 100%;
+    margin: 16px 0;
+}
+
+main.cards section.card span {
+    font-weight: 300;
+    max-width: 240px;
+    font-size: 80%;
+    margin-bottom: 16px;
+}
+
+main.cards section.card button {
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 16px 0;
+}
+
+main.cards section.card.contact button {
+    background: #3E8AFF;
+}
+main.cards section.card.shop button {
+    background: #3E8AFF;
+}
+main.cards section.card.about button {
+    background: #3E8AFF;
+}
+
+/* Noticias */
+.noticia{
+    height: 30vh;
+    margin-bottom: 2rem;
+}
+
+.noticia h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #2980B9;
+    padding: 5px;
+    text-align: center;
+}
+
+.noticia p{
+    margin-bottom: 3rem;
+    font-size: 15px;
+    font-weight: 400;
+    color: inherit;
+    text-align: center;
+}
+
+.noticia-content{
+    display: flex;
+    width: 100%;
+    margin-left: 1rem;
+    padding: 1rem;
+    color: #000000;
+}
+
+.noticia-content a, h3{
+    text-decoration: none;
+    color: inherit;
+    transition: .2s;
+}
+
+
+.noticia-content h3:hover{
+    color: #2980B9;
+    transform:  scale(0.9);
+}
+
+.date{
+    color: #2980B9;
+    font-size: 15px;
+    padding: 2px;
+}
+
+.date span{
+    color: #000000;
+    font-size: 15px;
+}
+
+/* Footer */
+footer{
+    background-color: #0e0c0c;
+    height: 50%;
+    padding: 35px;
+    color: #fff;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 2rem;
+}
+
+.footer-content a{
+    color: #fff;
+}
+
+.footer-content p{
+    margin: 4px;
+    line-height: 3rem;
+    font-size: 14px;
+}
+
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a i{
+    font-size: 2rem;
+    transition: .4s ease;
+}
+
+.socials a i:hover{
+    transform: scale(0.9);
+}
+
+#footer-copyright{
+    text-align: center;
+    padding: 10px auto;
+    font-size: 0.9rem;
+    font-weight: 100;
+}
+
+/* ScrollBar */
+::-webkit-scrollbar{
+    width: 10px;
+}
+     
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: #a8a29e;
+    border-radius: 10px;
+    
+}

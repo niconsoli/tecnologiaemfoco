@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+/* Cabeçalho */
+.container-nav{
+    max-width: 800px;   
+    display: flex;
+    margin-left: 5rem;
+}
+
+header{
+    background-color: transparent;
+    width: 100%;
+    padding: 25px;
+}
+
+.menu{
+    width: 100%;
+}
+
+.menu nav a{
+    color: #000000;
+    text-decoration: none;
+    padding-right: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: .4s;
+}
+
+.menu nav a:hover{
+    color: #2980B9;
+}
+
+/* Pag - Fale Conosco */
+.mensagem-content{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.mensagem-content h3{
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    text-decoration: underline;
+    padding: 0 0 1rem 0;
+    color: #171717;
+}
+
+.contato{
+    width: 100%;
+    max-width: 500px;
+    padding: 50px 0 10px 10px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.field{
+    padding: 10px;
+    margin-bottom: 15px;
+    border:1px solid #000 ;
+    border-radius: 10px;
+}
+
+.field-bt{
+    padding: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.field-bt button{
+    font-size: 15px;
+    font-weight: bold;
+    width: 40%;
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 8px;
+    color: #fff;
+    background: #81afcd;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.field-bt button:hover{
+    background: #2980B9;
+}
+
+textarea{
+    height: 150px;
+}
+
+.mapa{
+    overflow: hidden;
+}
+
+/* Footer */
+footer{
+    background-color: #0e0c0c;
+    height: 50%;
+    padding: 35px;
+    color: #fff;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    padding: 10px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 2rem;
+}
+
+.footer-content p{
+    margin: 4px;
+    line-height: 3rem;
+    font-size: 14px;
+}
+
+#footer-copyright{
+    text-align: center;
+    padding: 1px;
+    font-size: 0.9rem;
+    font-weight: 100;
+}
+
+
+/* ScrollBar */
+::-webkit-scrollbar{
+    width: 10px;
+}
+     
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: #a8a29e;
+    border-radius: 10px;
+    
+}
